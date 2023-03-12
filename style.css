@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(171, 219, 219, 0.882);
+}
+
+.navbar-toggler{
+    justify-content: start;
+    z-index: 99;
+    border: none;
+}
+
+.header {
+    height: 600px;
+    padding-right: 40%;
+    margin-top: 6%;
+}
+
+.header h1 {
+    color: rgba(11, 170, 170, 0.3);
+}
+
+.img-mobile {
+    top: 0%;
+    position: absolute;
+    left: 36%;
+    z-index: 99;
+}
+
+.intro {
+    background-color: #fe3902;
+    position: absolute;
+    left: 48%;
+    top: 0%;
+    padding: 10%;
+    margin: 0 2%;
+    padding-bottom: 15%;
+    border-radius: 45px 0 0 45px;
+}
+
+.intro h1{
+        font-size: 67px;
+        font-weight: bold;
+}
+
+.intro ul li{
+    font-size: 27px;
+}
+
+.intro button{
+    padding: 2.5% 5%;
+    margin: 0 2%;
+}
+
+.heading{
+    padding: 0 24% 3% 24%;
+}
+
+.heading h1 span{
+    color: #fe3902;
+}
+
+.card{
+    background-color: rgba(19, 22, 22, 0.1);
+    
+}
+.card :hover{
+    background-color: rgba(226, 171, 125, 0.897);
+}
